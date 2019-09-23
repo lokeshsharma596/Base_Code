@@ -29,9 +29,6 @@ e2.name="hello"
 print(e2.name)
 
 
-# In[85]:
-
-
 del e1,e2
 
 
