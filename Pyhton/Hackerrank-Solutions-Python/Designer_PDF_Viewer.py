@@ -9,6 +9,7 @@ import string
 
 # Complete the designerPdfViewer function below.
 def designerPdfViewer(h, word):
+    
     a=list(string.ascii_lowercase)
     p=dict(zip(a,h))
     x=0
