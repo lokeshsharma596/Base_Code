@@ -8,14 +8,14 @@ import sys
 import os
 sys.path.append(os.path.join(os.path.dirname(__file__), "..", ".."))
 
-from MyProject.Pages.Loginpage import LoginPage
-from MyProject.Pages.homepage import Homepage
+from Orangehrm_POM.Pages.Loginpage import LoginPage
+from Orangehrm_POM.Pages.homepage import Homepage
 
 class LoginTest(unittest.TestCase):
 
     @classmethod
     def setUpClass(cls):
-        cls.driver=webdriver.Chrome("/home/lokesh/selenium/MyProject/driver/chromedriver")
+        cls.driver=webdriver.Chrome("/home/lokesh/Orangehrm_POM/driver/chromedriver")
         cls.driver.implicitly_wait(10)
         cls.driver.maximize_window()
 
@@ -27,6 +27,7 @@ class LoginTest(unittest.TestCase):
         login.enter_username("Admin")
         login.enter_password("admin123")
         login.click_login()
+
         time.sleep(3)
 
         homepage=Homepage(driver)
@@ -41,4 +42,4 @@ class LoginTest(unittest.TestCase):
 
 
 if __name__ == '__main__':
-    unittest.main(testRunner=HtmlTestRunner.HTMLTestRunner(output='/home/lokesh/selenium/MyProject/reports'))
+    unittest.main(testRunner=HtmlTestRunner.HTMLTestRunner(output='/home/lokesh/Orangehrm_POM/reports'))

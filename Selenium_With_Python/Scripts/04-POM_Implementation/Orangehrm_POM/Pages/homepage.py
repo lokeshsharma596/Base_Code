@@ -1,4 +1,4 @@
-from MyProject.Locators.locators import Locators
+from Orangehrm_POM.Locators.locators import Locators
 
 class Homepage():
 

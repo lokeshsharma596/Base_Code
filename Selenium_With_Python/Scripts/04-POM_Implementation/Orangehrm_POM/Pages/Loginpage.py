@@ -1,4 +1,4 @@
-from MyProject.Locators.locators import Locators
+from Orangehrm_POM.Locators.locators import Locators
 
 class LoginPage():
 
@@ -9,6 +9,7 @@ class LoginPage():
         self.username_textbox_id = Locators.username_textbook_id
         self.password_textbox_id = Locators.password_textbook_id
         self.login_button_id = Locators.login_button_id
+       
 
     def enter_username(self,username):
         self.driver.find_element_by_id(self.username_textbox_id).clear()
