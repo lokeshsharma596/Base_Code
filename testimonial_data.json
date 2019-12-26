@@ -1,0 +1,52 @@
+[
+    {
+    "show":{
+      "id": 1,
+      "name":"Dayne 'The Rock' Johnson",
+      "profile": "Americian-Canadian Actor",
+      "avatar":"https://pickaface.net/gallery/avatar/20130521_135610_1501_testing.png",
+      "cname": "AppyPie",
+      "description":"dfg ergrgh ergerfhth egfebfbe efgbefbehb ehehteh egehbteh"
+    }
+    },
+    {
+    "show":{
+        "id": 2,
+        "name":"Johnson joss",
+        "profile": "Canadian Actor",
+        "avatar":"https://pickaface.net/gallery/avatar/42193138_170505_0451_9rf92y.png",
+        "cname": "wxyz",
+        "description":"aaaaaaaaaaaaaaaaaaaaaaaaaaasasasasasasaas"
+     }
+     },
+     {
+      "show":{
+        "id": 3,
+        "name":"'The Rock' Johnson",
+        "profile": "Actor",
+        "avatar":"https://pickaface.net/gallery/avatar/20140525_080927_3383_Georgina.png",
+        "cname": "sffsgvf",
+        "description":"qwedfwefwefwrgfrwgrgregregbgrbrbwtbrtbrt"
+     }
+    },
+    {
+    "show":{
+        "id": 4,
+        "name":"Strew Anthony",
+        "profile": "Singer",
+        "avatar":"https://pickaface.net/gallery/avatar/jr.brids2856294f1295460.png",
+        "cname": "erwfwfrfe",
+        "description":"assdsdewfrgfrgtgt4hthhh5h54h5h65h6h6hh665hh45h54"
+    }
+    },
+    {
+      "show":{
+        "id": 5,
+        "name":"Paul walker",
+        "profile": "Musician",
+        "avatar":"https://pickaface.net/gallery/avatar/78847351_180812_0631_9dmzt2.png",
+        "cname": "poikuuhjn",
+        "description":"swvhrtjnyrnytjmutkukuy,muymtnytnytnynytntynytnytnytyn"
+      }
+    }    
+  ]
